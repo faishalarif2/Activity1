@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Struk Pembelian</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Struk Pembelian</div>
+        <hr>
+        <p>Nama Buah        : <b th:text="${nama}"></b>
+        <p>Harga Perkilo    : Rp.<b th:text="${harga}"></b>
+        <p>Jumlah Kilo      : <b th:text="${perkilo}"></b>
+        <p>Harga Awal       : Rp.<b th:text="${total}"></b>
+        <p>Jumlah Diskon (%) : <b th:text="${disc}"></b>
+        <p>Total Harga Diskon   : <b th:text="${discount}"></b>
+        <p>Total Bayar      : Rp.<b th:text="${tbayar}"></b>
+    </body>
+</html>
